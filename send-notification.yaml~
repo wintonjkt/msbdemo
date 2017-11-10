@@ -30,7 +30,7 @@ spec:
         tier: notification
     spec:
       containers:
-        - image: mycluster.icp:8500/wintondev/send-notification:v1.0.0
+        - image: anthonyamanse/send-notification:1.0
           imagePullPolicy: Always
           name: send-notification
           env:

@@ -30,7 +30,7 @@ spec:
         tier: compute
     spec:
       containers:
-        - image: mycluster.icp:8500/wintondev/compute-interest-api:v1.0.0
+        - image: anthonyamanse/compute-interest-api:secrets
           imagePullPolicy: Always
           name: compute-interest-api
           env:
